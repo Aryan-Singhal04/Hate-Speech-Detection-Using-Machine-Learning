@@ -2,7 +2,7 @@ import streamlit as st
 import re
 import pickle
 
-st.title("Hate Speech Detection Model")
+st.title("Hate Speech Detection")
 data=st.text_input("write the text")
 bt=st.button("Detect")
 
